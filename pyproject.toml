@@ -3,10 +3,11 @@ requires = ["setuptools>=68.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rlwriter"
+name = "novelist-agent"
 version = "0.1.0"
 description = "基于强化学习与记忆机制的大模型小说文风模拟框架"
 readme = "README.md"
+license = "GPL-3.0-or-later"
 requires-python = ">=3.10"
 dependencies = [
     "openai>=1.0",
@@ -24,7 +25,7 @@ dev = ["pytest>=7.0", "pytest-asyncio>=0.21"]
 search = ["duckduckgo-search>=5.0", "wikipedia>=1.4", "tavily-python>=0.3", "exa-py>=1.0"]
 
 [project.scripts]
-rlwriter = "rlwriter.cli:main"
+novelist-agent = "novelist-agent.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

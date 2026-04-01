@@ -1,0 +1,47 @@
+[
+  {
+    "hook_id": "hook_001",
+    "description": "陈默穿越后身上携带的刻有弯弯曲曲文字的木牌，身份不明，可能关联其来历或特殊能力。",
+    "chapter_introduced": 1,
+    "importance": "medium",
+    "technique": "道具引入",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_002",
+    "description": "陈默在极度饥饿时，仅凭想象就能在掌心凭空变出‘红烧牛肉面’，且多次出现，暗示其拥有某种超自然或系统类能力。",
+    "chapter_introduced": 1,
+    "importance": "high",
+    "technique": "能力初现",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_003",
+    "description": "连续变出多包面后，陈默感到眩晕、乏力，暗示使用能力可能消耗其精神或体力。",
+    "chapter_introduced": 1,
+    "importance": "medium",
+    "technique": "代价暗示",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_004",
+    "description": "身穿破旧号衣、额角有疤的汉子带人控制住陈默，并低声询问‘先生这仙家手段，可救一城人否？’，暗示其身份可能为官兵或特殊势力，并已注意到陈默的异常。",
+    "chapter_introduced": 1,
+    "importance": "high",
+    "technique": "对话与人物引入",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_005",
+    "description": "陈默能听懂疤脸汉子所说的、类似后世官话的语言，暗示其穿越后可能具备语言适应或理解能力。",
+    "chapter_introduced": 1,
+    "importance": "low",
+    "technique": "细节暗示",
+    "status": "open",
+    "chapter_resolved": null
+  }
+]

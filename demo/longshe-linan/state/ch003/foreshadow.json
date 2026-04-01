@@ -1,0 +1,155 @@
+[
+  {
+    "hook_id": "hook_001",
+    "description": "主角李默身怀前世巅峰的龙蛇玄功，且在此世更为精纯，暗示其武功来历与潜力。",
+    "chapter_introduced": 1,
+    "importance": "high",
+    "technique": "能力设定",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_002",
+    "description": "胡骑探马白日闯入临安御街，襄阳被围年余、朝廷援兵不发、关隘可能失守等背景，暗示北方战事危急，外患迫近。",
+    "chapter_introduced": 1,
+    "importance": "high",
+    "technique": "环境烘托与对话暗示",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_003",
+    "description": "贾相公（似指贾似道）在葛岭府中斗蟋蟀不理政事的民间议论，暗示朝廷腐败、主政者无能。",
+    "chapter_introduced": 1,
+    "importance": "medium",
+    "technique": "路人对话",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_004",
+    "description": "厢兵上官因李默来历不明，虽赏银却不愿深交，暗示其身份可能引发后续调查或冲突。",
+    "chapter_introduced": 1,
+    "importance": "medium",
+    "technique": "情节留白",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_005",
+    "description": "殿前司巡哨军士与李默的对视，其眼神沉郁，可能暗示该军士将有后续戏份或代表军中某种势力。",
+    "chapter_introduced": 1,
+    "importance": "low",
+    "technique": "细节描写",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_006",
+    "description": "李默目睹山河将倾、孩童嬉戏的场景后心生感慨，暗示其可能从追求武道巅峰转向家国责任。",
+    "chapter_introduced": 1,
+    "importance": "high",
+    "technique": "心理描写",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_007",
+    "description": "李默决定前往襄阳，并收拢虎牢关残兵，暗示其将介入襄阳战局，可能成为扭转战局的关键人物。",
+    "chapter_introduced": 2,
+    "importance": "high",
+    "technique": "行动暗示",
+    "status": "resolved",
+    "chapter_resolved": 3
+  },
+  {
+    "hook_id": "hook_008",
+    "description": "蒙古元帅阿术分兵东向，大将唆都领铁骑三万直扑虎牢关，且已遣探马回报李默之事，暗示后续将有蒙古高手或大军与李默正面冲突。",
+    "chapter_introduced": 2,
+    "importance": "high",
+    "technique": "对话提及",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_009",
+    "description": "方翰等三十余名残兵誓死追随李默，暗示这些军士可能成为李默最初的班底，并在后续剧情中发挥作用。",
+    "chapter_introduced": 2,
+    "importance": "medium",
+    "technique": "人物表态",
+    "status": "resolved",
+    "chapter_resolved": 3
+  },
+  {
+    "hook_id": "hook_010",
+    "description": "李默听闻朝廷已遣密使与伯颜商议划江而治，暗示后续和战之争将成为重要政治背景，可能影响李默的行动。",
+    "chapter_introduced": 2,
+    "importance": "medium",
+    "technique": "对话提及",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_011",
+    "description": "李默体内龙蛇玄功自然流转，气血奔涌不觉疲累，且掌力可疗伤，进一步暗示其武功的神异与潜力，为后续更高层次的武学展现铺垫。",
+    "chapter_introduced": 2,
+    "importance": "medium",
+    "technique": "细节强化",
+    "status": "resolved",
+    "chapter_resolved": 3
+  },
+  {
+    "hook_id": "hook_012",
+    "description": "李默以生硬蒙语审问蒙古头领，暗示其可能通晓蒙语或有相关背景，为后续潜入、情报获取或与蒙古人交涉埋下伏笔。",
+    "chapter_introduced": 3,
+    "importance": "medium",
+    "technique": "细节暗示",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_013",
+    "description": "樊城溃兵提及城中粮尽、人相食的惨状，暗示襄阳战局已极度危急，守军士气与生存状态堪忧，为李默抵达后面对的严峻局面铺垫。",
+    "chapter_introduced": 3,
+    "importance": "high",
+    "technique": "对话透露背景",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_014",
+    "description": "李默沿途收拢溃兵、猎户、厢军等至七八十人并编队，暗示这支队伍将成为其初期力量，并在后续渡江、袭扰或守城中发挥作用。",
+    "chapter_introduced": 3,
+    "importance": "high",
+    "technique": "情节推进",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_015",
+    "description": "李默审问得知汉水南岸三处渡口各有五艘哨船及巡弋规律（辰、午、酉换哨），为下一章渡江行动的具体挑战和策略埋下伏笔。",
+    "chapter_introduced": 3,
+    "importance": "high",
+    "technique": "情报获取",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_016",
+    "description": "猎户陈七分发草药，暗示其可能具备医术或野外生存技能，为后续队伍医疗、后勤或特殊任务（如采药、解毒）埋下伏笔。",
+    "chapter_introduced": 3,
+    "importance": "low",
+    "technique": "细节刻画",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_017",
+    "description": "李默闭目时‘前世今生光影交错’，暗示其记忆或意识可能进一步融合，为后续武功突破、心态转变或触发关键回忆埋下伏笔。",
+    "chapter_introduced": 3,
+    "importance": "medium",
+    "technique": "心理描写",
+    "status": "open",
+    "chapter_resolved": null
+  }
+]

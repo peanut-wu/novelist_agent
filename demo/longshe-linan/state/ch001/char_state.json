@@ -1,0 +1,84 @@
+{
+  "active": {
+    "李默": {
+      "location": "临安府御街附近石桥边",
+      "last_seen": "在石桥边凭栏远眺，目睹殿前司巡哨队伍经过，沉思山河局势",
+      "key_events": [
+        "御街击退泼皮解救老丈",
+        "徒手制服四名胡骑探马"
+      ],
+      "possessions": [
+        "布衣草履",
+        "散碎银子（剩余）",
+        "厢官赏银十两"
+      ],
+      "relationships_update": {
+        "老丈": "救助之恩",
+        "厢兵都头": "初步接触/戒备"
+      }
+    },
+    "黑胖汉子（泼皮头目）": {
+      "location": "临安府御街附近（逃离）",
+      "last_seen": "被李默击退后带领手下泼皮逃离御街",
+      "key_events": [
+        "勒索卖炊饼老丈被李默阻止",
+        "被李默一招击退"
+      ],
+      "possessions": [],
+      "relationships_update": {
+        "李默": "畏惧/结仇"
+      }
+    },
+    "卖炊饼老丈": {
+      "location": "临安府御街附近（已离开）",
+      "last_seen": "接受李默赠银后千恩万谢离去",
+      "key_events": [
+        "被泼皮勒索",
+        "被李默所救并获赠银两"
+      ],
+      "possessions": [
+        "炊饼担子（损毁）",
+        "李默所赠银两三两"
+      ],
+      "relationships_update": {
+        "李默": "感激恩人"
+      }
+    },
+    "虬髯骑士（胡骑探马）": {
+      "location": "临安府府狱",
+      "last_seen": "被厢兵捆绑押走",
+      "key_events": [
+        "纵马撞向老丈被李默拦下",
+        "被李默踏住胸口生擒"
+      ],
+      "possessions": [],
+      "relationships_update": {
+        "李默": "被制服/敌对"
+      }
+    },
+    "厢兵都头": {
+      "location": "临安府厢官衙署",
+      "last_seen": "在衙署后堂与上官商议后，出来赏银并叮嘱李默",
+      "key_events": [
+        "带队处理胡骑闯街事件",
+        "询问并记录李默口供"
+      ],
+      "possessions": [],
+      "relationships_update": {
+        "李默": "赏识其身手但疑虑其来历"
+      }
+    },
+    "殿前司年轻军士": {
+      "location": "临安府运河边巡哨途中",
+      "last_seen": "巡哨经过石桥时与李默目光对视",
+      "key_events": [
+        "随殿前司队伍沿河巡哨"
+      ],
+      "possessions": [
+        "军械"
+      ],
+      "relationships_update": {}
+    }
+  },
+  "inactive": {}
+}
