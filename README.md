@@ -1,6 +1,7 @@
 # NovelistAgent
 
 > 用强化学习模仿任意作家文风，无需微调模型
+
 > 本项目通过vibe coding实现
 
 ## 一句话介绍
