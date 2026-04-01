@@ -1,0 +1,56 @@
+[
+  {
+    "hook_id": "hook_001",
+    "description": "赵朔突然获得前世武学记忆与强大内力，来源不明（可能为穿越或某种传承）",
+    "chapter_introduced": 1,
+    "importance": "high",
+    "technique": "设定引入",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_002",
+    "description": "老卒认出赵朔内家功夫并追问师承，暗示此世界存在武林体系且赵朔武功非同寻常",
+    "chapter_introduced": 1,
+    "importance": "medium",
+    "technique": "对话暗示",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_003",
+    "description": "赵朔回忆中关于襄阳战事、贾似道决策的见闻，暗示历史走向与个人命运的交织",
+    "chapter_introduced": 1,
+    "importance": "high",
+    "technique": "背景铺垫",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_004",
+    "description": "赵朔决心“不能白来一遭”，暗示他将介入历史进程",
+    "chapter_introduced": 1,
+    "importance": "high",
+    "technique": "心理独白",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_005",
+    "description": "虬髯汉等人退走时说的“后会有期”，可能预示后续冲突",
+    "chapter_introduced": 1,
+    "importance": "low",
+    "technique": "对话留白",
+    "status": "open",
+    "chapter_resolved": null
+  },
+  {
+    "hook_id": "hook_006",
+    "description": "老卒身份（刘整将军麾下）及见识，可能成为后续线索人物",
+    "chapter_introduced": 1,
+    "importance": "medium",
+    "technique": "人物铺垫",
+    "status": "open",
+    "chapter_resolved": null
+  }
+]

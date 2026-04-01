@@ -1,0 +1,20 @@
+[
+  {
+    "name": "赵朔",
+    "description": "主角，穿越者，拥有《龙蛇演义》书末王超的武力和技能",
+    "personality": "沉稳果决，心怀天下",
+    "background": "现代人穿越到南宋末年"
+  },
+  {
+    "name": "陈破虏",
+    "description": "南宋忠义社头领，务实果敢",
+    "personality": "忠义双全，勇猛无畏",
+    "background": "南宋民间抗元力量领袖"
+  },
+  {
+    "name": "阿术",
+    "description": "元军攻宋主帅，骁勇善战，老谋深算",
+    "personality": "冷酷狡猾，军事天才",
+    "background": "元朝大将"
+  }
+]

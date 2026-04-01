@@ -1,0 +1,81 @@
+# RLWriter 配置
+
+llm:
+  provider: "openai"  # openai / ollama / custom
+  model: "gpt-4o"
+  api_base: null       # 自定义 API 端点，ollama 用 http://localhost:11434/v1
+  api_key: null        # 从环境变量 OPENAI_API_KEY 读取
+  temperature: 0.7
+  max_tokens: 4096
+  timeout: 120
+
+preprocessing:
+  # 语义场景分割
+  segmentation:
+    method: "embedding_similarity"  # embedding_similarity / sliding_window
+    embedding_model: "text-embedding-3-small"
+    similarity_threshold: 0.35      # 场景切换的相似度阈值
+    min_scene_length: 300           # 最短场景字数
+    max_scene_length: 2000          # 最长场景字数
+    overlap: 50                     # 滑动窗口重叠字数
+
+  # 摘要抽取
+  summarization:
+    style_decoupling: true          # 风格剥离模式
+    abstract_level: "high"          # high(纯情节) / medium(保留部分风格) / low(近似复述)
+    max_summary_ratio: 0.3          # 摘要最大压缩比
+    use_dialogue_transform: true    # 对话→结构化描述转换
+    scenes_per_chapter: 5           # 每章包含场景数
+    chapters_per_volume: 8          # 每卷包含章节数
+
+memory:
+  backend: "file"                   # file / sqlite / redis
+  path: "output/memory_store"
+  max_context_tokens: 8000          # 快速内存窗口上限
+  retrieval_top_k: 5                # 每次检索最相关的节点数
+
+reward:
+  weights:
+    stylometric: 0.30               # 计算文体学指标
+    authorship_verification: 0.35   # 作者身份验证
+    llm_judge: 0.35                 # LLM 裁判
+
+  stylometric:
+    features:
+      - "ttr"                       # 类符/形符比
+      - "entropy"                   # 文本熵
+      - "burstiness"                # 爆发性
+      - "pos_ngram"                 # 词性 N-gram
+      - "sentence_length_var"       # 句子长度方差
+      - "punctuation_density"       # 标点密度
+
+  llm_judge:
+    dimensions:
+      - "句法结构相似度"
+      - "情感节奏匹配度"
+      - "词汇偏好对齐度"
+      - "叙事视角一致性"
+      - "修辞手法运用"
+
+optimizer:
+  method: "apo"                     # apo (Automatic Prompt Optimization)
+  max_iterations: 20
+  convergence_threshold: 0.02       # 连续两轮奖励差 < 此值则停止
+  prompt_components:
+    - "system_instruction"
+    - "style_rules"
+    - "example_demonstrations"
+
+pipeline:
+  input_dir: "data/samples"
+  output_dir: "output"
+  log_level: "INFO"
+
+search:
+  enabled: true
+  mode: "llm_select"     # auto / manual / llm_select
+  source: "auto"         # auto / tavily / exa / duckduckgo / wikipedia
+  max_results: 3
+  api_keys:
+    tavily: ""
+    exa: ""
